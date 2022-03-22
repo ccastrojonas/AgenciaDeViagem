@@ -1,0 +1,116 @@
+body {
+    max-width: 1366px;
+    margin: 0 auto;
+    font-family: 'Righteous', cursive;
+}
+
+.banner{
+    width: 100%;
+}
+
+.cabecalho{
+    color: rgb(244, 67, 54);
+    display: flex;
+    justify-content: space-between;    
+    padding: 1rem 0.3rem;
+    width: 100%;
+}
+
+.container {
+    max-width: 1366px;
+    background-color: white;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    transform: translate(0, -100%);
+}
+
+.menu {
+    display: inline;
+    margin: 0 auto;
+}
+
+.menu__lista {
+    margin: 0 auto;
+    list-style: none;
+    display: inline-flex;
+    background-color: black;
+}
+
+.menu__itens {
+    padding: 0 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu__itens:hover {
+    background-color: rgb(244, 67, 54);
+    
+}
+
+.menu__itens a {
+    color: white;
+    text-decoration: none;
+}
+
+.container p {
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+.formulario {
+    padding: 0 10px;
+}
+
+.formulario div {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+
+.formulario input {
+    width: 350px;
+    border: 1px 1px 1px 0.5 solid;
+}
+
+.formulario button {
+    margin: 10px 10px 30px ;
+    padding: 10px;
+    background-color: #979797;
+    border: none;
+}
+
+.ofertas {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-imagens {
+    display: inline-flex;
+}
+
+.ofertas__imagem-maior{
+    width: 600px;
+}
+
+.ofertas__imagem-maior img {
+    width: 600px;
+}
+
+.ofertas__imagem-menor {
+    width: 600px;
+    display: inline-block;
+}
+
+.ofertas__imagem-menor img {
+    width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 200px;
+}
